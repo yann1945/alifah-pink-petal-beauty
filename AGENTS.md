@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Storefront structure
+- Keep the sample catalog in a browser-safe module and the preview cart in page state until a live product source is connected; this keeps the storefront usable without a backend.
